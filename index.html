@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO básico -->
+  <title>Aline Madeira | Nutricionista - Atendimento online</title>
+  <meta name="description" content="Aline Madeira, nutricionista CRN3 85215. Atendimento 100% online, plano alimentar individualizado e acompanhamento por aplicativo. Nutrição de acordo com a sua realidade." />
+  <meta name="keywords" content="nutricionista, nutrição online, plano alimentar individualizado, terapia alimentar, Aline Madeira" />
+  <meta name="author" content="Aline Madeira" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aline Madeira | Nutricionista" />
+  <meta property="og:description" content="Nutrição de acordo com a sua realidade. Atendimento 100% online e planejamento alimentar personalizado." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">AM</span>
+        <span class="brand-name">Aline Madeira<small>Nutricionista</small></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#ajuda">Como ajudo</a>
+        <a href="#metodo">Meu método</a>
+        <a href="#paraquem">Para quem é</a>
+        <a href="#contato" class="nav-cta">Agendar</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Aline Madeira · Nutricionista</p>
+        <h1 class="hero-title">Nutrição de acordo<br><span class="accent">com a sua realidade</span></h1>
+        <p class="hero-sub">Por aqui, tornamos o processo prazeroso e transformamos dietas em escolhas.</p>
+
+        <div class="hero-actions">
+          <a href="https://wa.me/5518991398765" target="_blank" rel="noopener" class="btn btn-primary">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.42 1.31-1.96 1.36-.5.05-1.13.07-1.83-.11-.42-.11-.96-.29-1.66-.59-2.92-1.26-4.83-4.2-4.98-4.4-.15-.2-1.19-1.58-1.19-3.02 0-1.43.75-2.14 1.02-2.43.27-.29.58-.36.78-.36l.56.01c.18 0 .42-.07.66.5.24.59.82 2.03.89 2.18.07.15.12.32.02.51-.09.2-.14.32-.28.49l-.42.49c-.14.14-.28.29-.12.57.16.29.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.15.44.12.6-.07.16-.2.69-.8.87-1.08.18-.29.36-.24.61-.14.24.09 1.55.73 1.82.86.27.14.44.2.51.32.07.11.07.68-.17 1.36Z"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="https://www.instagram.com/nutri_alinemadeira/" target="_blank" rel="noopener" class="btn btn-secondary">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.7 3.7 0 0 1-.9 1.38 3.7 3.7 0 0 1-1.38.9c-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 1.98c-3.15 0-3.5.01-4.74.07-1.14.05-1.76.24-2.17.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.41-.35 1.03-.4 2.17-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.05 1.14.24 1.76.4 2.17.21.55.47.94.88 1.35.41.41.8.67 1.35.88.41.16 1.03.35 2.17.4 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c1.14-.05 1.76-.24 2.17-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.41.35-1.03.4-2.17.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.05-1.14-.24-1.76-.4-2.17a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.17-.4-1.24-.06-1.59-.07-4.74-.07Zm0 3.37a5.05 5.05 0 1 1 0 10.1 5.05 5.05 0 0 1 0-10.1Zm0 1.98a3.07 3.07 0 1 0 0 6.14 3.07 3.07 0 0 0 0-6.14Zm5.27-2.15a1.18 1.18 0 1 1 0 2.36 1.18 1.18 0 0 1 0-2.36Z"/></svg>
+            Conhecer Instagram
+          </a>
+        </div>
+
+        <ul class="hero-badges">
+          <li>100% online</li>
+          <li>Atendimento individualizado</li>
+          <li>Rotina real</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-image" role="img" aria-label="Alimentação saudável e bem-estar">
+          <div class="hero-image-tag">
+            <span class="dot"></span> Nutrição com acolhimento
+          </div>
+        </div>
+        <div class="hero-float hero-float-1">🥑 Comida de verdade</div>
+        <div class="hero-float hero-float-2">🌿 Leveza no dia a dia</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="section sobre" id="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-visual reveal">
+        <div class="sobre-image" role="img" aria-label="Alimentos variados para uma alimentação saudável"></div>
+        <div class="sobre-badge">
+          <strong>Aline Madeira</strong>
+          <span>Nutricionista · Birigui/SP</span>
+        </div>
+      </div>
+      <div class="sobre-content reveal">
+        <p class="eyebrow">Sobre a Aline</p>
+        <h2 class="section-title">Prazer, sou Aline Madeira</h2>
+        <p class="lead">Sou nutricionista formada pela Unitoledo Wyden em 2023, pós-graduada em Análise do Comportamento Aplicado ao Autismo (ABA), com experiência em Unidades de Alimentação e Nutrição (UAN) e atuação focada em terapia alimentar, especialmente com crianças no espectro autista. CRN3 85215.</p>
+        <p>Minha história com o emagrecimento e a endometriose me aproxima de quem vive essas realidades. Sou movida pela culinária: cozinhar, para mim, é cuidar, transformar e devolver autonomia e prazer à alimentação.</p>
+        <a href="#contato" class="btn btn-outline">Quero começar minha jornada</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMO POSSO TE AJUDAR ===================== -->
+  <section class="section ajuda" id="ajuda">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Como posso te ajudar</p>
+        <h2 class="section-title">O que você irá receber</h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card reveal">
+          <div class="card-icon">🍃</div>
+          <h3>Plano alimentar individualizado</h3>
+          <p>Nada de dieta pronta: aqui é tudo feito para você, com porções e grupos alimentares ajustados às suas necessidades.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🥗</div>
+          <h3>Opções de substituição</h3>
+          <p>Sugestões flexíveis, alinhadas ao seu objetivo, para modificar suas refeições quando precisar.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🌱</div>
+          <h3>Ebook de receitas</h3>
+          <p>Receitas prontas para facilitar seu dia — do café ao jantar.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">💛</div>
+          <h3>Orientação nutricional</h3>
+          <p>Material com explicações claras e dicas estratégicas para o seu objetivo.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🤝</div>
+          <h3>Suporte pelo WhatsApp</h3>
+          <p>Durante 1 mês, você terá meu WhatsApp disponível para esclarecer dúvidas.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🍽️</div>
+          <h3>Acompanhamento por aplicativo</h3>
+          <p>Durante 1 mês, você terá acompanhamento por aplicativo ao longo do processo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MEU MÉTODO ===================== -->
+  <section class="section metodo" id="metodo">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Meu método</p>
+        <h2 class="section-title">Como funciona o atendimento</h2>
+        <p class="section-desc">Atendo 100% online. Nosso acompanhamento começa com uma anamnese completa para conhecer você, seus objetivos, histórico, rotina e queixas, e entender como melhorar sua alimentação de forma leve, sem mudanças radicais.</p>
+      </div>
+
+      <div class="method-steps">
+        <div class="step reveal">
+          <span class="step-num">01</span>
+          <h3>Anamnese completa</h3>
+          <p>Conheço seus objetivos, histórico, rotina e queixas para entender suas necessidades.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">02</span>
+          <h3>Avaliação nutricional</h3>
+          <p>Avaliamos possíveis deficiências nutricionais e, se necessário, solicito exames bioquímicos.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">03</span>
+          <h3>Recordatório alimentar</h3>
+          <p>Analisamos sua rotina alimentar para entender como você se alimenta hoje e o que podemos melhorar.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">04</span>
+          <h3>Planejamento personalizado</h3>
+          <p>Ajusto porções, incluo grupos alimentares e, quando necessário, entro com suplementação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PARA QUEM É ===================== -->
+  <section class="section paraquem" id="paraquem">
+    <div class="container paraquem-grid">
+      <div class="paraquem-content reveal">
+        <p class="eyebrow">Para quem é</p>
+        <h2 class="section-title">Esse acompanhamento é para você que…</h2>
+        <ul class="check-list">
+          <li>Quer transformar sua relação com a comida</li>
+          <li>Busca liberdade alimentar</li>
+          <li>Quer melhorar a alimentação sem mudanças radicais</li>
+          <li>Precisa de opções flexíveis para suas refeições</li>
+          <li>Busca um acompanhamento individualizado</li>
+        </ul>
+        <p class="paraquem-note">“Para conquistar sua liberdade alimentar, é preciso amar o processo e transformar sua relação com a comida.”</p>
+      </div>
+      <div class="paraquem-visual reveal">
+        <div class="paraquem-image" role="img" aria-label="Bem-estar e leveza"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="section cta" id="contato">
+    <div class="container cta-inner reveal">
+      <h2 class="cta-title">Agende sua consulta</h2>
+      <p class="cta-text">Atendimento 100% online. Nutrição de acordo com a sua realidade.</p>
+      <a href="https://wa.me/5518991398765" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.42 1.31-1.96 1.36-.5.05-1.13.07-1.83-.11-.42-.11-.96-.29-1.66-.59-2.92-1.26-4.83-4.2-4.98-4.4-.15-.2-1.19-1.58-1.19-3.02 0-1.43.75-2.14 1.02-2.43.27-.29.58-.36.78-.36l.56.01c.18 0 .42-.07.66.5.24.59.82 2.03.89 2.18.07.15.12.32.02.51-.09.2-.14.32-.28.49l-.42.49c-.14.14-.28.29-.12.57.16.29.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.15.44.12.6-.07.16-.2.69-.8.87-1.08.18-.29.36-.24.61-.14.24.09 1.55.73 1.82.86.27.14.44.2.51.32.07.11.07.68-.17 1.36Z"/></svg>
+        Falar com a Aline no WhatsApp
+      </a>
+      <p class="cta-instagram">
+        Prefere conhecer meu trabalho primeiro?
+        <a href="https://www.instagram.com/nutri_alinemadeira/" target="_blank" rel="noopener">Me acompanhe no Instagram →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">AM</span>
+        <div>
+          <strong>Aline Madeira</strong>
+          <span>Nutricionista</span>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <a href="https://www.instagram.com/nutri_alinemadeira/" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.7 3.7 0 0 1-.9 1.38 3.7 3.7 0 0 1-1.38.9c-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 5.55a4.25 4.25 0 1 0 0 8.5 4.25 4.25 0 0 0 0-8.5Zm0 1.98a2.27 2.27 0 1 1 0 4.54 2.27 2.27 0 0 1 0-4.54Zm5.27-2.15a1.18 1.18 0 1 1 0 2.36 1.18 1.18 0 0 1 0-2.36Z"/></svg>
+          @nutri_alinemadeira
+        </a>
+        <a href="https://wa.me/5518991398765" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.19 8.19 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23Z"/></svg>
+          (18) 99139-8765
+        </a>
+        <a href="mailto:nutri.alinemadeira454@gmail.com">nutri.alinemadeira454@gmail.com</a>
+      </div>
+
+      <p class="footer-copy">© <span id="year"></span> Aline Madeira · Nutricionista. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5518991398765" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.16c-.24.68-1.42 1.31-1.96 1.36-.5.05-1.13.07-1.83-.11-.42-.11-.96-.29-1.66-.59-2.92-1.26-4.83-4.2-4.98-4.4-.15-.2-1.19-1.58-1.19-3.02 0-1.43.75-2.14 1.02-2.43.27-.29.58-.36.78-.36l.56.01c.18 0 .42-.07.66.5.24.59.82 2.03.89 2.18.07.15.12.32.02.51-.09.2-.14.32-.28.49l-.42.49c-.14.14-.28.29-.12.57.16.29.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.15.44.12.6-.07.16-.2.69-.8.87-1.08.18-.29.36-.24.61-.14.24.09 1.55.73 1.82.86.27.14.44.2.51.32.07.11.07.68-.17 1.36Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
